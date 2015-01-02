@@ -1,7 +1,7 @@
-modelname   : Model-page-template
+modelname   : NA
 modelcomment: >
-    Template for model pages. 
-baseurl     : /Model-page-template
+    NAComment. 
+baseurl     : /NA
 accountname : VicCastillo
 preurl      : https://github.com/VicCastillo
 #
