@@ -1,9 +1,8 @@
-modelname   : NA
-modelcomment: >
-    NAComment. 
-baseurl     : /NA
+modelname   : STEM-Dev
+modelcomment: Developing STEM resources
+baseurl     : 
 accountname : VicCastillo
-preurl      : https://github.com/VicCastillo
+preurl      : https://github.com/STEM-Dev
 #
 gems:
   - jekyll-sitemap
