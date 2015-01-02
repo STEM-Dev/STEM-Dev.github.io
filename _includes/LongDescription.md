@@ -1,5 +1,5 @@
 STEM-Dev
 =========================
 
-LongDescription
+Developing STEM resources
 
