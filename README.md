@@ -1,4 +1,6 @@
 ## STEM-Dev Launch page
 
-STEM-Dev.gothub.io
+CHANGES MUST BE PUSHED TO STEM-Dev FIRST!
+
+[http://stem-dev.github.io/](http://stem-dev.github.io/)
 
