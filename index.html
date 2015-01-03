@@ -22,16 +22,21 @@
   <body>
       <div id="header">
         <nav>
-          <li class="fork">     <a href="{{site.preurl}}{{site.baseurl}}">View On GitHub</a></li>
+          <li class="fork">     <a href="https://github.com/STEM-Dev/">View On GitHub</a></li>
+<li class="fork">  <a href="https://github.com/STEM-Dev/"><img src="https://raw.githubusercontent.com/STEM-Dev/STEM-Dev.github.io/master/images/STEM-Dev.png" /></a> </li>   
         </nav>
       </div><!-- end header -->
 
     <div class="wrapper">
 
+
+
       <section>
         <div id="title">
           <h1>{{site.modelname}}</h1>
           <p>{{site.modelcomment}}</p>
+          <p><img src="https://raw.githubusercontent.com/STEM-Dev/STEM-Dev.github.io/master/images/STEM-Dev.png" 
+              alt="STEM-Dev"></p>
           <hr>
           <span class="credits left">Project maintained by <a href="{{site.preurl}}">VicCastillo</a></span>
           <span class="credits right">Hosted on GitHub</span>
@@ -41,12 +46,8 @@
 	{% capture my_include1 %}{% include LongDescription.md %}{% endcapture %}
 	{{ my_include1 | markdownify }}
 
-      <p><img src="https://raw.githubusercontent.com/STEM-Dev/STEM-Dev.github.io/master/images/STEM-Dev.png" alt="STEM-Dev"></p>
-
 	{% capture my_include2 %}{% include OtherDetails.md %}{% endcapture %}
 	{{ my_include2 | markdownify }}
-
-     {{content}}
 
       </section>
 
